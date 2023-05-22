@@ -1,3 +1,7 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /private/
+Disallow: /admin/
+Disallow: /secret-page.html
+Allow: /public/
+
+Sitemap: https://mine-showcase.web.app/sitemap.xml
